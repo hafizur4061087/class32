@@ -1,0 +1,77 @@
+.first_box {
+	height: 600px;
+	width: 631px;
+	border: 1px dotted black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 33px;
+	margin-left: 359px;
+    margin-bottom: 20px;
+}
+.flex_item {
+	color: black;
+	background: red;
+	padding: 10px 20px;
+	border: 1px solid green;
+	font-weight: 600;
+}
+.second_box {
+	height: 300px;
+	width: 1205px;
+	border: 1px solid black;
+	display: flex;
+	align-items: flex-end;
+	justify-content: end;
+	margin-left: 54px;
+    margin-bottom: 20px;
+}
+.third_div {
+	height: 300px;
+	width: 644px;
+	border: 1px solid black;
+	display: flex;
+	align-items: flex-start;
+	margin-left: 400px;
+	flex-wrap: wrap;
+	align-content: flex-start;
+    margin-bottom: 20px;
+}
+.fourth_box {
+	height: 300px;
+	width: 944px;
+	border: 1px solid black;
+	display: flex;
+	align-items: flex-start;
+	margin-left: 229px;
+	justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.fifth_box {
+	height: 500px;
+	width: 944px;
+	border: 1px solid black;
+	display: flex;
+	align-items: flex-start;
+    margin-left: 150px;
+}
+.fifth_box div:nth-child(3){
+    align-self: flex-end;
+}
+.fifth_box div:nth-child(4){
+    align-self: center;
+}
+.fifth_box div:nth-child(5){
+    flex-grow: 1;
+}
+.sixth_box{
+    height: 300px;
+	width: 944px;
+	border: 1px solid black;
+	display: flex;
+    margin-top: 20px;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+    margin-left: 100px
+}
